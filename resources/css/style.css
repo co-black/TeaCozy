@@ -40,6 +40,7 @@ nav span{
 
 .content {
 border: 3px solid yellow;
+margin-top: 69px;
 }
 
 /* FRONT PAGE, OUR MISSION SECTION */
@@ -52,18 +53,28 @@ border: 3px solid yellow;
 }
 
 .image-content h2{
-  background-color: black;
   margin-top: 300px;
-  padding: 10px;
+  padding-top: 10px;
 }
 
 .image-content h4{
-padding: 10px;
+padding-bottom: 10px;
 }
 
 .our-mission {
   display: flex;
-  background-color: black;
-  margin: 69px 40px;
+  margin-left: 40px;
+  margin-right: 40px;
   border: 1px solid red;
 }
+
+.image-content {
+  display: block;
+  background-color: black;
+}
+
+.text {
+  background-color: black;
+}
+
+/* TEA OF THE MONTH SECTION */

@@ -45,6 +45,13 @@ margin-top: 69px;
 
 /* FRONT PAGE, OUR MISSION SECTION */
 
+.our-mission {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+  border: 2px solid red;
+}
+
 .our-mission .image-content{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   width: 1200px;
@@ -61,20 +68,63 @@ margin-top: 69px;
 padding-bottom: 10px;
 }
 
-.our-mission {
-  display: flex;
-  margin-left: 40px;
-  margin-right: 40px;
-  border: 1px solid red;
-}
-
-.image-content {
-  display: block;
+.image-content{
   background-color: black;
 }
 
-.text {
+.mission-text{
   background-color: black;
 }
 
 /* TEA OF THE MONTH SECTION */
+
+.tea-month{
+  border: 3px solid lightblue;
+  height: 1000px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 150px;
+}
+
+.tea-month h2{
+margin-left: 400px;
+}
+
+.tea-month h4{
+margin-left: 375px;
+}
+
+/*-- TEA OF THE MONTH IMAGES */
+
+.tea-images-row1{
+  display: flex;
+  padding-left: 25px
+  /*flex: 1;*/
+}
+
+.tea-images-row2{
+  display: flex;
+  padding-left: 50px
+  /*flex: 1;*/
+}
+
+.image1{
+  margin-left: 25px;
+  /*flex: 1;*/
+}
+
+.image2{
+  /*flex: 1;*/
+}
+
+.image3{
+
+}
+
+.image4{
+margin-left: 150px;
+}
+
+.image5{
+
+}

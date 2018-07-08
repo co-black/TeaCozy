@@ -1,9 +1,13 @@
-*{
-  font-family: helvetica;
-  /* font-size: 22px; */
-  color: seashell;
-  background-color: black;
-  opacity: 0.9;
+body{
+font-family: helvetica;
+/*font-size: 22px;*/
+color: seashell;
+background-color: black;
+opacity: 0.9;
+}
+
+p, h3{
+  font-size: 22px;
 }
 
 /* HEADER */
@@ -17,6 +21,7 @@
    height: 69px;
    border-bottom: 1px solid seashell;
    background-color: black;
+   color: seashell;
    top: 0px
 }
 
@@ -34,13 +39,15 @@
 nav span{
   display: inline-block;
   padding: 20px 10px;
+  text-decoration-color: seashell;
 }
 
 /* MAIN CONTENT CONTAINER */
 
 .content {
-border: 3px solid yellow;
+/*border: 3px solid yellow;*/
 margin-top: 69px;
+background-color: black;
 }
 
 /* FRONT PAGE, OUR MISSION SECTION */
@@ -49,7 +56,7 @@ margin-top: 69px;
   display: flex;
   margin-left: 40px;
   margin-right: 40px;
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 
 .our-mission .image-content{
@@ -79,12 +86,12 @@ padding-bottom: 10px;
 /* TEA OF THE MONTH SECTION */
 
 .tea-month{
-  border: 3px solid lightblue;
-  height: 700px;
+  /*border: 3px solid lightblue;*/
+  height: 650px;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 0px;
-  padding-top: 50px;
+  padding-top: 35px;
 }
 
 .tea-month h2{
@@ -132,4 +139,72 @@ text-align: center;
   flex: 1;
   text-align: center;
   margin-right: 150px;
+}
+
+/* LOCATIONS SECTION */
+
+.locations-container{
+  /*border: 2px solid lightgreen;*/
+  height: 500px;
+  margin-top: 0px;
+}
+
+.locations-container div{
+}
+
+.locations-image-content{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;;
+  width: 100%;
+}
+
+.locations-image-content h2{
+  padding-top: 50px;
+}
+
+.locations{
+  display: flex;
+}
+
+.locations div{
+  /*border: 1px solid red;*/
+}
+
+.location1{
+  background-color: black;
+  flex: 1;
+  height: 300px;
+  width: 300px;
+  margin: 15px 20px;
+  text-align: center;
+}
+
+.location1 h3{
+  margin-top: 50px
+}
+
+.location2{
+  background-color: black;
+  flex: 1;
+  height: 300px;
+  width: 300px;
+  margin: 15px 20px;
+  text-align: center;
+}
+
+.location2 h3{
+  margin-top: 50px
+}
+
+.location3{
+  background-color: black;
+  flex: 1;
+  height: 300px;
+  width: 300px;
+  margin: 15px 20px;
+  text-align: center;
+}
+
+.location3 h3{
+  margin-top: 50px
 }
